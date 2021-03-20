@@ -1,5 +1,16 @@
 # sowm (*~~Simple~~ Shitty Opinionated Window Manager*)
 
+This is my fork of [sowm](https://github.com/dylanaraps/sowm).
+
+## Changes
+
+* Use `alacritty` as terminal instead of `st`.
+* Changed screenshot command from `sc` to `scrot`.
+* Snap a window to the left with `MOD4+h`.
+* Snap a window to the right with `MOD4+l`.
+
+## Original Readme
+
 <a href="https://user-images.githubusercontent.com/6799467/66687576-9747c200-ec72-11e9-947d-5b96753eab03.jpg"><img src="https://user-images.githubusercontent.com/6799467/66687576-9747c200-ec72-11e9-947d-5b96753eab03.jpg" width="43%" align="right"></a>
 
 An itsy bitsy floating window manager (*220~ sloc!*).

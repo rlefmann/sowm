@@ -145,6 +145,20 @@ void win_fs(const Arg arg) {
     }
 }
 
+void win_tile_left(const Arg arg) {
+    if (!cur) return;
+		if (!cur->f) {
+				XMoveResizeWindow(d, cur->w, 0, 0, sw / 2, sh);
+		}
+}
+
+void win_tile_right(const Arg arg) {
+    if (!cur) return;
+		if (!cur->f) {
+		    XMoveResizeWindow(d, cur->w, sw / 2, 0, sw / 2, sh);
+		}
+}
+
 void win_to_ws(const Arg arg) {
     int tmp = ws;
 

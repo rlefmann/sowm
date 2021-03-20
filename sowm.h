@@ -48,6 +48,8 @@ void win_add(Window w);
 void win_center(const Arg arg);
 void win_del(Window w);
 void win_fs(const Arg arg);
+void win_tile_left(const Arg arg);
+void win_tile_right(const Arg arg);
 void win_focus(client *c);
 void win_kill(const Arg arg);
 void win_prev(const Arg arg);
